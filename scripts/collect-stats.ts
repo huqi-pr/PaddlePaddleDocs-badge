@@ -216,25 +216,7 @@ class StatsCollector {
 }
 
 const collector = new StatsCollector({
-  org: 'withastro',
+  org: 'PaddlePaddle',
   token: process.env.GITHUB_TOKEN,
-   customCategories: {
-    i18n: {
-      docs: [
-        // Astro Docs content translations
-        "src/content/docs/!(en)/**/*",
-        // Astro Docs labels translations 
-        "src/i18n/!(en)/**/*",
-        // Astro Docs translations before migrating to Content Collections
-        "src/pages/+(ar|de|es|fr|ja|pl|pt-br|ru|zh-cn|zh-tw)/**/*",
-      ],
-      starlight: [
-        // Starlight Docs content translations
-        "docs/src/content/docs/!(en)/**/*",
-        // Starlight package labels translations
-        "packages/starlight/translations/!(en.json)"
-      ],
-     },
-  }
 });
 await collector.run();

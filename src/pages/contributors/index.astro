@@ -7,8 +7,8 @@ import src from './_og.jpg?url';
 
 const sortedUsernames = contributors.map((c) => c.username);
 
-const title = 'Astro Contributors';
-const description = 'Find an Astro contributor and check out their awesome work!';
+const title = 'PaddlePaddle Contributors';
+const description = 'Find an PaddlePaddle contributor and check out their awesome work!';
 const dataID = 'contributor-usernames';
 ---
 
@@ -17,18 +17,18 @@ const dataID = 'contributor-usernames';
   {description}
   ogImg={{
     src,
-    alt: 'The text “Find your contributor badge” over three brightly coloured stylized cards representing Astro contributor badges.',
+    alt: 'The text “Find your contributor badge” over three brightly coloured stylized cards representing PaddlePaddle contributor badges.',
   }}
 >
   <div class="flex flex-col gap-6">
     <div class="flex flex-col gap-4">
       <h1 class="heading-3 text-white">{title}</h1>
       <div>
-        <p>Show off your own or celebrate an Astro contributor’s achievements!</p>
+        <p>Show off your own or celebrate an PaddlePaddle contributor’s achievements!</p>
         <p>
           Enter a GitHub username to show that user’s contributions to repositories in <a
             class="link-underline"
-            href="https://github.com/withastro/">the <code>withastro</code> org</a
+            href="https://github.com/PaddlePaddle/">the <code>PaddlePaddle</code> org</a
           >.
         </p>
       </div>
@@ -37,7 +37,7 @@ const dataID = 'contributor-usernames';
     <Frame>
       <form onsubmit="return false" class="flex flex-col gap-4 sm:gap-8">
         <label for="find-contributor" class="heading-5 text-white">
-          Find an Astro contributor
+          Find an PaddlePaddle contributor
         </label>
         <div class="relative">
           <svg
@@ -79,7 +79,7 @@ const dataID = 'contributor-usernames';
       </div>
 
       <div class="text-center text-neutral-200">
-        <p>Astro has {Intl.NumberFormat().format(contributors.length)} contributors! 🧑‍🚀💜</p>
+        <p>PaddlePaddle has {Intl.NumberFormat().format(contributors.length)} contributors! 🧑‍🚀💜</p>
         <p>Data is updated once per day at midnight GMT.</p>
       </div>
     </Frame>
@@ -152,7 +152,7 @@ const dataID = 'contributor-usernames';
         
         const imageSrc = new URL(`/v2/contributor/${username}.svg`, window.location.href);
         const moreHref = new URL(`/contributor/${username}/`, window.location.href);
-        svgDisplay.innerHTML = `<img src="${imageSrc.href}" alt="@${username} Astro contributions" width="260" height="156" class="cursor-pointer group-hover:-translate-y-0.5 motion-safe:transition-all">`;
+        svgDisplay.innerHTML = `<img src="${imageSrc.href}" alt="@${username} PaddlePaddle contributions" width="260" height="156" class="cursor-pointer group-hover:-translate-y-0.5 motion-safe:transition-all">`;
         moreP.innerHTML = `<a href="${moreHref}">More about this contributor&nbsp;→</a>`;
       } catch (error: unknown) {
         resetSvg();
