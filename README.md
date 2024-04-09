@@ -5,7 +5,7 @@
 This project aims to celebrate the contributions of the [PaddlePaddle](http://paddlepaddle.org) community.
 
 Get badges to show off on your sites and READMEs!  
-👉 **<https://astro.badg.es>** 👈
+👉 **<https://paddlepaddle-badge.vercel.app>** 👈
 
 ## 🧞 Commands
 
