@@ -218,5 +218,6 @@ class StatsCollector {
 const collector = new StatsCollector({
   org: 'PaddlePaddle',
   token: process.env.GITHUB_TOKEN,
+  customCategories: {}
 });
 await collector.run();
