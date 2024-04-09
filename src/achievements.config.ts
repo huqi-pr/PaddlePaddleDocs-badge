@@ -4,31 +4,13 @@ export default AchievementSpec({
   'repos-with-merges': {
     getCount: ({ merged_pulls }) => Object.keys(merged_pulls).length,
     achievements: [
-      { count: 2, title: 'Gemini', details: 'PRs in 2 Astro repos' },
-      { count: 3, title: 'Astronomer', details: 'PRs in 3 Astro repos' },
+      { count: 2, title: 'Gemini', details: 'PRs in 2 PaddlePaddle repos' },
+      { count: 3, title: 'Paddlenomer', details: 'PRs in 3 PaddlePaddle repos' },
       {
         count: 6,
         title: 'Constellation Crafter',
-        details: 'PRs in 6 Astro repos',
+        details: 'PRs in 6 PaddlePaddle repos',
       },
-    ],
-  },
-  'i18n-reviews': {
-    stat: 'reviews_by_category',
-    category: 'i18n',
-    achievements: [
-      { count: 1, title: 'Proofreader', details: 'Reviewed an i18n PR' },
-      { count: 15, title: 'Polyglot', details: 'Reviewed 15 i18n PRs' },
-      { count: 40, title: 'Rosetta Stone', details: 'Reviewed 40 i18n PRs' },
-    ],
-  },
-  'i18n-merges': {
-    stat: 'merged_pulls_by_label',
-    label: 'i18n',
-    achievements: [
-      { count: 1, title: 'Decoder', details: 'First i18n PR' },
-      { count: 15, title: 'Babel Fish', details: '15 i18n PRs' },
-      { count: 40, title: 'Universal Translator', details: '40 i18n PRs' },
     ],
   },
   'total-reviews': {
@@ -110,9 +92,9 @@ export default AchievementSpec({
     repo: 'action',
     stat: 'merges',
     achievements: [
-      { count: 1, title: 'Deploy Buddy', details: 'First withastro/action PR' },
-      { count: 5, title: 'Action Packed', details: '5 withastro/action PRs' },
-      { count: 15, title: 'Action Hero', details: '15 withastro/action PRs' },
+      { count: 1, title: 'Deploy Buddy', details: 'First PaddlePaddle/action PR' },
+      { count: 5, title: 'Action Packed', details: '5 PaddlePaddle/action PRs' },
+      { count: 15, title: 'Action Hero', details: '15 PaddlePaddle/action PRs' },
     ],
   },
   'houston-ai-merges': {

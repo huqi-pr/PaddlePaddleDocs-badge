@@ -67,7 +67,7 @@ const dataID = 'contributor-usernames';
       >
         <div class="group flex flex-col gap-4 py-4 sm:pt-8">
           <div id="svg-display" class="[&>*]:shadow-lg">
-            <img src="/v2/contributor-placeholder.svg" alt="" width="260" height="156" />
+            <img src="/v1/contributor-placeholder.svg" alt="" width="260" height="156" />
           </div>
           <p
             id="more-link"
@@ -128,7 +128,7 @@ const dataID = 'contributor-usernames';
 
   const resetSvg = () => {
     svgDisplay.innerHTML =
-      '<img src="/v2/contributor-placeholder.svg" alt="" width="260" height="156">';
+      '<img src="/v1/contributor-placeholder.svg" alt="" width="260" height="156">';
   };
 
   svgDisplay.addEventListener('click', () => {
@@ -150,7 +150,7 @@ const dataID = 'contributor-usernames';
         const username = findUsername(input);
         if (!username) throw new Error('Contributor not found!');
         
-        const imageSrc = new URL(`/v2/contributor/${username}.svg`, window.location.href);
+        const imageSrc = new URL(`/v1/contributor/${username}.svg`, window.location.href);
         const moreHref = new URL(`/contributor/${username}/`, window.location.href);
         svgDisplay.innerHTML = `<img src="${imageSrc.href}" alt="@${username} PaddlePaddle contributions" width="260" height="156" class="cursor-pointer group-hover:-translate-y-0.5 motion-safe:transition-all">`;
         moreP.innerHTML = `<a href="${moreHref}">More about this contributor&nbsp;→</a>`;
