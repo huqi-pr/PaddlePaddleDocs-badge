@@ -8,7 +8,7 @@ export default AchievementSpec({
       { count: 3, title: 'Paddlenomer', details: 'PRs in 3 PaddlePaddle repos' },
       {
         count: 6,
-        title: 'Constellation Crafter',
+        title: 'Craftsman',
         details: 'PRs in 6 PaddlePaddle repos',
       },
     ],
@@ -16,18 +16,18 @@ export default AchievementSpec({
   'total-reviews': {
     stat: 'reviews',
     achievements: [
-      { count: 1, title: 'Spot Check', details: 'Reviewed a PR' },
-      { count: 10, title: 'Copilot', details: 'Reviewed 10 PRs' },
-      { count: 30, title: 'PR Perfectionist', details: 'Reviewed 30 PRs' },
+      { count: 2, title: 'Spot Check', details: 'Reviewed 2 PRs' },
+      { count: 100, title: 'Copilot', details: 'Reviewed 100 PRs' },
+      { count: 1024, title: 'PR Perfectionist', details: 'Reviewed 1024 PRs' },
     ],
   },
-  'astro-merges': {
-    repo: 'astro',
+  'paddle-merges': {
+    repo: 'Paddle',
     stat: 'merges',
     achievements: [
-      { count: 1, title: 'Space Cadet', details: 'First astro PR' },
-      { count: 10, title: 'Technician', details: '10 astro PRs' },
-      { count: 30, title: 'Rocket Scientist', details: '30 astro PRs' },
+      { count: 1, title: 'Space Cadet', details: 'First Paddle PR' },
+      { count: 50, title: 'Technician', details: '50 Paddle PRs' },
+      { count: 300, title: 'Rocket Scientist', details: '300 Paddle PRs' },
     ],
   },
   'docs-merges': {
@@ -39,124 +39,68 @@ export default AchievementSpec({
       { count: 30, title: 'Galactic Librarian', details: '30 docs PRs' },
     ],
   },
-  'rfc-merges': {
-    repo: 'roadmap',
+  'Paddle-Lite-merges': {
+    repo: 'Paddle-Lite',
     stat: 'merges',
     achievements: [
-      { count: 1, title: 'Visionary', details: 'First roadmap PR' },
-      { count: 5, title: 'Mission Control', details: '5 roadmap PRs' },
-      { count: 15, title: 'Feature Creature', details: '15 roadmap PRs' },
+      { count: 1, title: 'Lite Ace', details: 'First Lite PR' },
+      { count: 50, title: 'Lite Specialist', details: '50 Lite PRs' },
+      { count: 300, title: 'Lite Maestro', details: '300 Lite PRs' },
     ],
   },
-  'prettier-merges': {
-    repo: 'prettier-plugin-astro',
+  'PaddleHub-merges': {
+    repo: 'PaddleHub',
     stat: 'merges',
     achievements: [
-      { count: 1, title: 'Aesthete', details: 'First prettier-plugin PR' },
-      { count: 10, title: 'Format Focused', details: '10 prettier-plugin PRs' },
-      {
-        count: 30,
-        title: 'Prettiest of Them All',
-        details: '30 prettier-plugin PRs',
-      },
+      { count: 1, title: 'Junior Alchemist', details: 'First PaddleHub PR' },
+      { count: 10, title: 'Adept Alchemist', details: '10 PaddleHub PRs' },
+      { count: 100, title: 'Master Alchemist', details: '100 PaddleHub PRs' },
     ],
   },
-  'compiler-merges': {
-    repo: 'compiler',
+  'ERNIE-merges': {
+    repo: 'ERNIE',
     stat: 'merges',
     achievements: [
-      { count: 1, title: 'Mechanic', details: 'First compiler PR' },
-      { count: 10, title: 'Go Pro', details: '10 compiler PRs' },
-      { count: 30, title: 'Spline Reticulator', details: '30 compiler PRs' },
+      { count: 1, title: 'Visionary', details: 'First ERNIE PR' },
+      { count: 5, title: 'Pioneer', details: '5 ERNIE PRs' },
+      { count: 15, title: 'Innovator', details: '15 ERNIE PRs' },
     ],
   },
-  'language-tools-merges': {
-    repo: 'language-tools',
+  'PaddleSpeech-merges': {
+    repo: 'PaddleSpeech',
     stat: 'merges',
     achievements: [
-      { count: 1, title: 'Subeditor', details: 'First language-tools PR' },
-      { count: 10, title: 'Linguist', details: '10 language-tools PRs' },
-      { count: 30, title: 'Token Wrangler', details: '30 language-tools PRs' },
+      { count: 1, title: 'Trailblazer', details: 'First PaddleSpeech PR' },
+      { count: 5, title: 'Articulator', details: '5 PaddleSpeech PRs' },
+      { count: 80, title: 'Soundwave', details: '80 PaddleSpeech PRs' },
     ],
   },
-  'astro.new-merges': {
-    repo: 'astro.new',
+  'Paddle2ONNX-merges': {
+    repo: 'Paddle2ONNX',
     stat: 'merges',
     achievements: [
-      { count: 1, title: 'Launch Pad', details: 'First astro.new PR' },
-      { count: 5, title: 'Browser IDEator', details: '5 astro.new PRs' },
-      { count: 15, title: 'New Code, Who Dis?', details: '15 astro.new PRs' },
+      { count: 1, title: 'Converter', details: 'First Paddle2ONNX PR' },
+      { count: 5, title: 'Transformer', details: '5 Paddle2ONNX PRs' },
+      { count: 99, title: 'BridgeBuilder', details: '99 Paddle2ONNX PRs' },
     ],
   },
-  'action-merges': {
-    repo: 'action',
+  'X2Paddle-merges': {
+    repo: 'X2Paddle',
     stat: 'merges',
     achievements: [
-      { count: 1, title: 'Deploy Buddy', details: 'First PaddlePaddle/action PR' },
-      { count: 5, title: 'Action Packed', details: '5 PaddlePaddle/action PRs' },
-      { count: 15, title: 'Action Hero', details: '15 PaddlePaddle/action PRs' },
+      { count: 1, title: 'X-Converter', details: 'First X2Paddle PR' },
+      { count: 5, title: 'X-Transformer', details: '5 X2Paddle PRs' },
+      { count: 99, title: 'X-BridgeBuilder', details: '99 X2Paddle PRs' },
     ],
   },
-  'houston-ai-merges': {
-    repo: 'houston.astro.build',
-    stat: 'merges',
-    achievements: [
-      {
-        count: 1,
-        title: 'HAL-lo World',
-        details: 'First houston.astro.build PR',
-      },
-      { count: 5, title: 'Droid Dev', details: '5 houston.astro.build PRs' },
-      {
-        count: 15,
-        title: 'Modern Prometheus',
-        details: '15 houston.astro.build PRs',
-      },
-    ],
-  },
-  'starlight-merges': {
-    repo: 'starlight',
-    stat: 'merges',
-    achievements: [
-      { count: 1, title: 'Twinkle, twinkle', details: 'First starlight PR' },
-      { count: 10, title: 'Stargazer', details: '10 starlight PRs' },
-      { count: 30, title: 'Superstar', details: '30 starlight PRs' },
-    ],
-  },
-  'adapters-merges': {
-    repo: 'adapters',
-    stat: 'merges',
-    achievements: [
-      { count: 1, title: 'Ahead of the Serve', details: 'First adapters PR' },
-      { count: 10, title: 'SSRsly', details: '10 adapters PRs' },
-      { count: 30, title: 'Adapter in Chief', details: '30 adapters PRs' },
-    ],
-  },
-  'cli-kit-merges': {
-    repo: 'cli-kit',
-    stat: 'merges',
-    achievements: [
-      { count: 1, title: 'Click, clack', details: 'First cli-kit PR' },
-      { count: 5, title: 'Niftty', details: '5 cli-kit PRs' },
-      { count: 15, title: 'Shellebrity', details: '15 cli-kit PRs' },
-    ],
-  },
-  'houston-bot-merges': {
-    repo: 'houston-discord',
-    stat: 'merges',
-    achievements: [
-      { count: 1, title: 'Assistant', details: 'First houston-discord PR' },
-      { count: 5, title: 'Botanist', details: '5 houston-discord PRs' },
-      { count: 15, title: 'Chatterbox', details: '15 houston-discord PRs' },
-    ],
-  },
-  'hacktoberfest-merges': {
+
+  'HappyOpenSource-merges': {
     stat: 'merged_pulls_by_label',
-    label: 'hacktoberfest-accepted',
+    label: 'HappyOpenSource',
     achievements: [
-      { count: 1, title: 'Hacker', details: '1 Hacktoberfest contribution' },
-      { count: 5, title: 'Commit or Treat', details: '5 Hacktoberfest contributions' },
-      { count: 15, title: 'Hack-o-Lantern', details: '15 Hacktoberfest contributions' },
+      { count: 1, title: 'Just for Funs', details: '1 HappyOpenSource PRs' },
+      { count: 5, title: 'Commit or Treat', details: '5 HappyOpenSource PRs' },
+      { count: 99, title: 'Enjoy Open', details: '99 HappyOpenSource PRs' },
     ],
   },
   'total-issues': {

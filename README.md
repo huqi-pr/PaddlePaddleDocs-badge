@@ -2,7 +2,7 @@
 
 [![Built with PaddlePaddle](./public/v1/built-with-paddlepaddle/small.svg)](http://paddlepaddle.org)
 
-This project aims to celebrate the contributions of the [PaddlePaddle](http://paddlepaddle.org) community.
+This project aims to celebrate the contributions of the [PaddlePaddle](http://paddlepaddle.org) community (**The data is incomplete due to interface restrictions.**).
 
 Get badges to show off on your sites and READMEs!  
 👉 **<https://paddlepaddle-badge.vercel.app>** 👈
