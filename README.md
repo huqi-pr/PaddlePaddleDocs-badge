@@ -1,4 +1,4 @@
-# PaddlePaddle Badges
+# PaddlePaddle Badges (unofficial)
 
 [![Built with PaddlePaddle](./public/v1/built-with-paddlepaddle/small.svg)](http://paddlepaddle.org)
 
